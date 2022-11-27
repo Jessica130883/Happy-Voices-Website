@@ -2,4 +2,8 @@
     margin: 0;
     padding: 0;
 }
-
+footer {
+    height: 150px;
+    background-color: #F59CA9;
+    text-align: center;
+}
