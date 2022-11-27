@@ -7,6 +7,23 @@ footer {
     background-color: #F59CA9;
     text-align: center;
 }
-.main-title, .title-contact {
+
+
+
+@media screen and (max-width: 768px) {
+   h4 {
+    text-align: center;
+   }
+   .main-title, .title-contact, .bio-title, .text-accueil, .teachers-title  {
     text-align: center;
 }
+.text-prof {
+    width: 500px;
+    text-align: justify;
+    padding: 10px;
+}
+ table {
+    border: 1px solid black;
+}
+}
+
