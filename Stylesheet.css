@@ -17,6 +17,14 @@ footer {
    .main-title, .title-contact, .bio-title, .text-accueil, .teachers-title  {
     text-align: center;
    }
+
+   .photo-prof1, .photo-prof2, .photo-prof3 {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    display: block; 
+    margin: auto; 
+}
 .text-prof {
     width: 500px;
     text-align: justify;
@@ -32,7 +40,7 @@ footer {
     .main-title {
         text-align: center;
     }
-    .text-accueil, .bio-title, .teachers-title {
+    .text-accueil, .bio-title, .teachers-title, .teacher-name {
         text-align: center;
     }
     .top-box {
