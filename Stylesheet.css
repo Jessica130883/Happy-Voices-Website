@@ -10,13 +10,13 @@ footer {
 
 
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
    h4 {
     text-align: center;
    }
    .main-title, .title-contact, .bio-title, .text-accueil, .teachers-title  {
     text-align: center;
-}
+   }
 .text-prof {
     width: 500px;
     text-align: justify;
@@ -24,6 +24,28 @@ footer {
 }
  table {
     border: 1px solid black;
+ }
 }
+.main-title {
+    text-align: center;
 }
-
+.text-accueil, .bio-title, .teachers-title {
+    text-align: center;
+}
+.top-box {
+    margin-right: 100px;
+}
+.photo-prof1, .photo-prof2, .photo-prof3 {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;    
+}
+.top-box, .center-box, .bottom-box {
+    display: flex;
+    margin: 30px 400px;
+}
+.text-prof {
+    width: 500px;
+    text-align: justify;
+    padding: 10px;
+}
