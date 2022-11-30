@@ -31,7 +31,10 @@ footer {
     padding: 10px;
 }
  table {
-    border: 1px solid black;
+    
+    background-color: rgb(246,130,140,0.3) ;
+    
+   
  }
 }
 
