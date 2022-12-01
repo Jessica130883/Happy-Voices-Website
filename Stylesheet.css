@@ -42,7 +42,16 @@ footer {
  th, td {
     padding: 5px;
  }
- 
+ .img-actu {
+    display: none;
+ }
+ .news {
+    text-align: center;
+ }
+ li {
+    list-style-type: none;
+    margin-left: 50px;
+ }
 }
 
 @media only screen and (min-width: 768px) {
