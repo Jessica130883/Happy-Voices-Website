@@ -52,6 +52,22 @@ footer {
     list-style-type: none;
     margin-left: 50px;
  }
+ .box-address {
+    text-align: center;
+ }
+ .box-iframe {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+ }
+ iframe {
+    height: 200px;
+    width: 200px;
+ }
+ .bottom-contact {
+    text-align: center;
+    margin-bottom: 50px;
+ }
 }
 
 @media only screen and (min-width: 768px) {
