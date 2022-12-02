@@ -128,4 +128,42 @@ footer {
         background-color: rgb(249, 220, 225);
         text-align: center;
     }
+    .title-news, .news {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .actu-1, .actu-2, .actu-3, .actu-4 {
+        border: 2px solid black;
+        height: 450px;
+        width: 400px;
+    }
+    .row {
+        border: 1px black solid;
+        height: 400px;
+        width: 600px;
+    }
+    .grid > div {
+        
+        border: solid 1px #999;
+    }
+    .grid {
+        display: grid;
+        align-content: space-between;
+        justify-content: space-around;
+        grid-template-columns: 40% 40%;
+        grid-template-rows: 500px 500px;
+        grid-column-gap: 100px;
+        grid-row-gap: 80px;
+        
+    }
+    .img-actu {
+        height: 100px;
+        margin-left: 40%;
+        margin-bottom: 50px;
+    }
+    ul {
+        list-style-type: none;
+        padding-left: 60px;
+    }
 }
