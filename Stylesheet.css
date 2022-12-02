@@ -95,4 +95,36 @@ footer {
         text-align: justify;
         padding: 10px;
     }
+    .title-cours {
+        margin-top: 70px;
+      }
+      .title-cours, .subtitle-cours {
+          text-align: center;
+          margin-bottom: 40px;
+      
+      }
+      
+      table {
+          margin: auto;
+          margin-bottom: 80px;
+      }
+      
+    table, th, td {
+        border: 1px solid black;
+    }
+    .tab-lessons {
+        height: 200px;
+        width: 350px;
+    }
+    .tab-prices {
+        height: 200px;
+        width: 350px;
+    }
+    td {
+        text-align: center;
+    }
+    .table-head {
+        height: 35px;
+        background-color: rgb(249, 220, 225);;
+    }
 }
