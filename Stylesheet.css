@@ -11,7 +11,16 @@ footer {
 
 
 @media only screen and (max-width: 768px) {
-   h4 {
+    .container-logo {
+        text-align: center;
+        width: 100%;
+    }
+    .logo-HV {
+        height: 100px;
+        
+    }
+ 
+    h4 {
     text-align: center;
    }
    .main-title, .title-contact, .bio-title, .text-accueil, .teachers-title  {
@@ -71,6 +80,21 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
+    .logo-HV {
+        height: 100px;
+        width: 100%;
+    }
+    .nav-link {
+        
+        margin: 0 30px;
+       }
+    #navbarNav {
+        justify-content: center;
+    }  
+    
+    .container-logo {
+        text-align: center;
+    }
     
     .main-title {
         text-align: center;
@@ -165,5 +189,44 @@ footer {
     ul {
         list-style-type: none;
         padding-left: 60px;
+    }
+    .title-contact, .subtitle-contact, .box-address {
+        text-align: center;
+        margin: 30px;
+    }
+    iframe {
+        height: 300px;
+        width: 300px;
+        margin-bottom: 70px;
+    }
+    .box-iframe {
+        text-align: center;
+        margin-top: 30px;
+    }
+    #field-message {
+        height: 300px;
+        width: 600px;
+    }
+    .up-contact {
+        height: 50%;
+    }
+    .bottom-contact {
+        height: 50%;
+        background: linear-gradient(white,#f6828c);
+    }
+    form {
+        text-align: center;
+    
+    }
+    .form-name, .form-firstname, .form-message {
+        margin: 15px;
+    }
+    label {
+        display: block;
+        
+    }
+    button {
+        width: 200px;
+        height: 50px;
     }
 }
