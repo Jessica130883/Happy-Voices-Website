@@ -112,6 +112,10 @@ p, i {
  }
  .title-contact {
     padding-top: 35px;
+    color: white;
+ }
+ .title-social {
+    color: white;
  }
 }
 
