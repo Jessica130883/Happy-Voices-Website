@@ -7,8 +7,18 @@ footer {
     background-color: #F59CA9;
     text-align: center;
 }
-
-
+h1, h2, h3, ul, a {
+    font-family: 'Catamaran', serif;
+}
+p, i {
+    font-family: 'mulish', sans-serif;
+}
+.head-content {
+    font-family: 'Catamaran', serif;
+}
+.lessons-content, .form-content {
+    font-family: 'mulish', sans-serif;
+}
 
 @media only screen and (max-width: 768px) {
     .container-logo {
