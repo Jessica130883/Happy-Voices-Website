@@ -268,4 +268,8 @@ p, i {
         width: 200px;
         height: 50px;
     }
+    .click-button {
+        margin-top: 15px;
+        border-radius: 5px;
+     }
 }
