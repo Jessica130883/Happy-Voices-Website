@@ -28,15 +28,20 @@ p, i {
        
     }
     .logo-HV {
-        height: 200px;
+        height: 150px;
         
     }
+
  
     h4 {
     text-align: center;
    }
    .main-title, .title-contact, .bio-title, .text-accueil, .teachers-title  {
     text-align: center;
+    margin-top: 50px;
+   }
+   .teacher-name {
+    margin: 10px 10px;
    }
 
    .photo-prof1, .photo-prof2, .photo-prof3 {
