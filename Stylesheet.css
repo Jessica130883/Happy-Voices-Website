@@ -106,6 +106,10 @@ p, i {
     text-align: center;
     margin-bottom: 50px;
  }
+ .click-button {
+    margin-top: 15px;
+    border-radius: 5px;
+ }
 }
 
 @media only screen and (min-width: 768px) {
