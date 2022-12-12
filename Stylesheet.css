@@ -110,6 +110,9 @@ p, i {
     margin-top: 15px;
     border-radius: 5px;
  }
+ .title-contact {
+    padding-top: 35px;
+ }
 }
 
 @media only screen and (min-width: 768px) {
