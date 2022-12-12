@@ -281,4 +281,13 @@ p, i {
         margin-top: 15px;
         border-radius: 5px;
      }
+     .title-contact {
+        padding-top: 35px;
+        color: white;
+        text-decoration: none;
+     }
+     .title-social {
+        color: white;
+        text-decoration: none;
+     }
 }
