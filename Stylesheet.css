@@ -36,7 +36,7 @@ p, i {
     h4 {
     text-align: center;
    }
-   .main-title, .title-contact, .bio-title, .text-accueil, .teachers-title  {
+   .main-title, .contact-title, .bio-title, .text-accueil, .teachers-title  {
     text-align: center;
     margin-top: 50px;
    }
@@ -113,9 +113,11 @@ p, i {
  .title-contact {
     padding-top: 35px;
     color: white;
+    text-decoration: none;
  }
  .title-social {
     color: white;
+    text-decoration: none;
  }
 }
 
