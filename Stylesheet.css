@@ -14,9 +14,11 @@ footer {
     .container-logo {
         text-align: center;
         width: 100%;
+        background-color: #F59CA9;
+       
     }
     .logo-HV {
-        height: 100px;
+        height: 200px;
         
     }
  
@@ -89,16 +91,22 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
+    .container-logo {
+        background-color: #F59CA9;
+    }
+
     .logo-HV {
-        text-align: center;
+
         height: 200px;
     }
+
     .nav-link {
         
         margin: 0 30px;
        }
     #navbarNav {
         justify-content: center;
+
     }  
     
     .container-logo {
