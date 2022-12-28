@@ -34,9 +34,13 @@ p, i {
     a.nav-link {
         color: white;
     }
-    .active {
+    a.nav-link:hover {
         color: #e562b0;
     }
+   #active-page {
+    color: #e562b0;
+    font-size: bold;
+   }
  
     h4 {
     text-align: center;
@@ -141,8 +145,14 @@ p, i {
         margin: 0 30px;
         color: white;
        }
+    a.nav-link:hover {
+        color:#e562b0;
+    }
     #active-page {
-        color: #e562b0;
+
+        background-color: #e562b0;
+        color: white;
+        font-weight: bold;
     }
     #navbarNav {
         justify-content: center;
