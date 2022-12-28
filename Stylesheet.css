@@ -150,7 +150,7 @@ p, i {
     }
     #active-page {
 
-        background-color: #e562b0;
+        text-decoration: underline;
         color: white;
         font-weight: bold;
     }
