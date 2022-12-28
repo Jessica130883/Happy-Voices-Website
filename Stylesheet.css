@@ -20,7 +20,7 @@ p, i {
     font-family: 'mulish', sans-serif;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
     .container-logo {
         text-align: center;
         width: 100%;
@@ -130,7 +130,7 @@ p, i {
  }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
     .container-logo {
         background-color: #F59CA9;
     }
