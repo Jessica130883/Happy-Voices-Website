@@ -238,7 +238,7 @@ p, i {
         list-style-type: none;
         padding-left: 60px;
     }
-    .title-contact, .subtitle-contact, .box-address {
+    .contact-title, .title-contact, .subtitle-contact, .box-address {
         text-align: center;
         margin: 30px;
     }
@@ -289,5 +289,8 @@ p, i {
      .title-social {
         color: white;
         text-decoration: none;
+     }
+     a:hover {
+        color: #e562b0;
      }
 }
