@@ -31,7 +31,9 @@ p, i {
         height: 150px;
         
     }
-
+    a.nav-link {
+        color: white;
+    }
  
     h4 {
     text-align: center;
@@ -131,9 +133,10 @@ p, i {
         height: 200px;
     }
 
-    .nav-link {
+    a.nav-link {
         
         margin: 0 30px;
+        color: white;
        }
     #navbarNav {
         justify-content: center;
