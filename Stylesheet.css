@@ -34,6 +34,9 @@ p, i {
     a.nav-link {
         color: white;
     }
+    .active {
+        color: #e562b0;
+    }
  
     h4 {
     text-align: center;
@@ -138,6 +141,9 @@ p, i {
         margin: 0 30px;
         color: white;
        }
+    #active-page {
+        color: #e562b0;
+    }
     #navbarNav {
         justify-content: center;
 
