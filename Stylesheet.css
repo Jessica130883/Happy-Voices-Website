@@ -124,6 +124,9 @@ color: #eb6da4;
     height: 200px;
     width: 200px;
  }
+ .bi-telephone-fill {
+    margin-right: 10px;
+}
  .contact-title, .subtitle-contact {
     color: #f59ca9;
  }
@@ -304,6 +307,9 @@ color: #eb6da4;
     }
     .contact-title, .subtitle-contact {
         color: #f59ca9;
+    }
+    .bi-telephone-fill {
+        margin-right: 20px;
     }
     iframe {
         height: 300px;
