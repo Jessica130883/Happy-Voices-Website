@@ -6,6 +6,7 @@ footer {
     height: 150px;
     background-color: #F59CA9;
     text-align: center;
+    margin-top: 80px;
 }
 h1, h2, h3, ul, a {
     font-family: 'Catamaran', serif;
