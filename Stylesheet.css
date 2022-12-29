@@ -150,7 +150,7 @@ p, i {
         color: white;
        }
     a.nav-link:hover {
-        color:#e562b0;
+        color: #e562b0;
     }
     #active-page {
 
@@ -170,6 +170,7 @@ p, i {
     .main-title {
         text-align: center;
         margin-top: 70px;
+        color: #f59ca9;
     }
     .text-introduction {
         margin-bottom: 40px;
@@ -182,6 +183,9 @@ p, i {
     }
     .text-accueil, .bio-title, .teachers-title, .teacher-name {
         text-align: center;
+    }
+    .bio-title, .teachers-title {
+        color: #f59ca9;
     }
     .top-box {
         margin-right: 100px;
@@ -274,6 +278,9 @@ p, i {
     .contact-title, .title-contact, .subtitle-contact, .box-address {
         text-align: center;
         margin: 30px;
+    }
+    .contact-title, .subtitle-contact {
+        color: #f59ca9;
     }
     iframe {
         height: 300px;
