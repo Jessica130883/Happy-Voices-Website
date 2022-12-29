@@ -112,6 +112,11 @@ color: #eb6da4;
     list-style-type: none;
     
  }
+ .address-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #F59CA9;
+ }
  .box-address {
     text-align: center;
  }
@@ -305,6 +310,11 @@ color: #eb6da4;
         text-align: center;
         margin: 30px;
     }
+    .address-title {
+        font-size: 20px;
+        font-weight: bold;
+        color: #F59CA9;
+     }
     .contact-title, .subtitle-contact {
         color: #f59ca9;
     }
