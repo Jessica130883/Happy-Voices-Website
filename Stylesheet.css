@@ -53,6 +53,17 @@ p, i {
    .teacher-name {
     margin: 10px 10px;
    }
+   .bio-title, .teachers-title, .teacher-name, .subtitle-cours {
+    color: #f59ca9;
+}
+.head-content {
+color: white;
+font-weight: bold;
+font-size: 20px;
+}
+.news {
+color: #eb6da4;
+}
 
    .photo-prof1, .photo-prof2, .photo-prof3 {
     height: 90px;
@@ -86,6 +97,7 @@ p, i {
  }
  .main-title {
     margin-top: 20px;
+    color: #f59ca9;
  }
  .news {
     text-align: center;
@@ -111,6 +123,9 @@ p, i {
  iframe {
     height: 200px;
     width: 200px;
+ }
+ .contact-title, .subtitle-contact {
+    color: #f59ca9;
  }
  .bottom-contact {
     text-align: center;
@@ -184,9 +199,17 @@ p, i {
     .text-accueil, .bio-title, .teachers-title, .teacher-name {
         text-align: center;
     }
-    .bio-title, .teachers-title {
+    .bio-title, .teachers-title, .teacher-name, .subtitle-cours {
         color: #f59ca9;
     }
+   .head-content {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+   }
+   .news {
+    color: #eb6da4;
+   }
     .top-box {
         margin-right: 100px;
     }
