@@ -168,6 +168,7 @@ p, i {
     
     .main-title {
         text-align: center;
+        margin-top: 70px;
     }
     .text-accueil, .bio-title, .teachers-title, .teacher-name {
         text-align: center;
