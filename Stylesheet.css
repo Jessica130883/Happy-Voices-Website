@@ -176,7 +176,8 @@ color: #eb6da4;
         color: white;
        }
     a.nav-link:hover {
-        color: #e562b0;
+        color: white;
+        font-size: 15px;
     }
     #active-page {
 
