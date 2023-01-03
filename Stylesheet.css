@@ -371,7 +371,9 @@ color: #eb6da4;
         text-decoration: none;
      }
      a.title-contact:hover, a.title-social:hover {
-        color: #e562b0;
+        color: white;
+        font-size: 15px;
+        text-decoration: underline;
      }
      .title-social {
         color: white;
