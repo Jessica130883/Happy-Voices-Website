@@ -81,7 +81,7 @@ color: #eb6da4;
 }
  table {
     
-    background-color: rgb(246,130,140,0.3);
+    background-color: #F59CA9;
     margin: auto;
    
  }
@@ -89,7 +89,12 @@ color: #eb6da4;
  .subtitle-cours {
     text-align: center;
     margin: 30px 20px;
-   
+
+ }
+ .lessons-content {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
  }
  th, td {
     padding: 5px;
@@ -273,7 +278,7 @@ color: #eb6da4;
     }
     .table-head {
         height: 35px;
-        background-color: rgb(249, 220, 225);
+        background-color: #F59CA9;
         text-align: center;
     }
     .title-news, .news {
