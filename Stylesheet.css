@@ -36,10 +36,12 @@ p, i {
         color: white;
     }
     a.nav-link:hover {
-        color: #e562b0;
+        color: white;
+        font-size: 15px;
     }
    #active-page {
-    color: #e562b0;
+    text-decoration: underline;
+    color: white;
     font-size: bold;
    }
  
@@ -156,7 +158,9 @@ color: #eb6da4;
     text-decoration: none;
  }
  a.title-contact:hover, a.title-social:hover {
-    color: #e562b0;
+    color: white;
+    font-size: 15px;
+    text-decoration: underline;
  }
 }
 
