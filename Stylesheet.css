@@ -150,6 +150,12 @@ color: #eb6da4;
  button {
     background-color: #F59CA9;
  }
+ span {
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px;
+}
  .click-button {
     margin-top: 15px;
     border-radius: 5px;
@@ -370,6 +376,11 @@ color: #eb6da4;
         width: 200px;
         height: 50px;
         background-color: #F59CA9;
+       
+    }
+    span {
+        color: white;
+        font-weight: bold;
     }
     .click-button {
         margin-top: 15px;
