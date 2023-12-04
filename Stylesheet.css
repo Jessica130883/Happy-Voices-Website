@@ -1,0 +1,411 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+    
+}
+footer {
+    height: 150px;
+    background-color: #F59CA9;
+    text-align: center;
+    margin-top: 80px;
+}
+h1, h2, h3, ul, a {
+    font-family: 'Catamaran', serif;
+}
+p, i {
+    font-family: 'mulish', sans-serif;
+}
+.head-content {
+    font-family: 'Catamaran', serif;
+}
+.lessons-content, .form-content {
+    font-family: 'mulish', sans-serif;
+}
+
+@media only screen and (max-width: 640px) {
+    .container-logo {
+        text-align: center;
+        width: 100%;
+        background-color: #F59CA9;
+       
+    }
+    .logo-HV {
+        height: 150px;
+        
+    }
+    a.nav-link {
+        color: white;
+    }
+    a.nav-link:hover {
+        color: white;
+        font-size: 15px;
+    }
+   #active-page {
+    text-decoration: underline;
+    color: white;
+    font-size: bold;
+   }
+ 
+    h4 {
+    text-align: center;
+   }
+   .main-title, .contact-title, .bio-title, .text-accueil, .teachers-title  {
+    text-align: center;
+    margin-top: 50px;
+   }
+   .teacher-name {
+    margin: 10px 10px;
+   }
+   .bio-title, .teachers-title, .teacher-name, .subtitle-cours {
+    color: #f59ca9;
+}
+.head-content {
+color: white;
+font-weight: bold;
+font-size: 20px;
+}
+.news {
+color: #eb6da4;
+}
+
+   .photo-prof1, .photo-prof2, .photo-prof3 {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    display: block; 
+    margin: auto; 
+}
+.text-prof {
+    width: 500px;
+    text-align: justify;
+    padding: 10px;
+}
+ table {
+    
+    background-color: #F59CA9;
+    margin: auto;
+   
+ }
+
+ .subtitle-cours {
+    text-align: center;
+    margin: 30px 20px;
+
+ }
+ .lessons-content {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+ }
+ th, td {
+    padding: 5px;
+ }
+ .img-actu {
+    display: none;
+ }
+ .main-title {
+    margin-top: 20px;
+    color: #f59ca9;
+ }
+ .news {
+    text-align: center;
+    margin-top: 15px;
+ }
+ .news-box {
+    border: 1px solid black;
+    height: 200px;
+    margin: 20px 20px;
+ }
+ li {
+    list-style-type: none;
+    
+ }
+ .address-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #F59CA9;
+ }
+ .box-address {
+    text-align: center;
+ }
+ .box-iframe {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+ }
+ iframe {
+    height: 200px;
+    width: 200px;
+ }
+ .bi-telephone-fill {
+    margin-right: 10px;
+}
+ .contact-title, .subtitle-contact {
+    color: #f59ca9;
+ }
+ .bottom-contact {
+    text-align: center;
+    margin-bottom: 50px;
+ }
+ button {
+    background-color: #F59CA9;
+
+ }
+ span {
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px;
+}
+ .click-button {
+    margin-top: 15px;
+    border-radius: 5px;
+ }
+ .title-contact {
+    padding-top: 35px;
+    color: white;
+    text-decoration: none;
+ }
+ .title-social {
+    color: white;
+    text-decoration: none;
+ }
+ a.title-contact:hover, a.title-social:hover {
+    color: white;
+    font-size: 15px;
+    text-decoration: underline;
+ }
+}
+
+@media only screen and (min-width: 641px) {
+    .container-logo {
+        background-color: #F59CA9;
+    }
+
+    .logo-HV {
+
+        height: 200px;
+    }
+
+    a.nav-link {
+        
+        margin: 0 30px;
+        color: white;
+       }
+    a.nav-link:hover {
+        color: white;
+        font-size: 15px;
+    }
+    #active-page {
+
+        text-decoration: underline;
+        color: white;
+        font-weight: bold;
+    }
+    #navbarNav {
+        justify-content: center;
+
+    }  
+    
+    .container-logo {
+        text-align: center;
+    }
+    
+    .main-title {
+        text-align: center;
+        margin-top: 70px;
+        color: #f59ca9;
+    }
+    .text-introduction {
+        margin-bottom: 40px;
+    }
+    .bio-text {
+        margin: 30px 40px;
+    }
+    .bio-teachers {
+        margin-top: 30px;
+    }
+    .text-accueil, .bio-title, .teachers-title, .teacher-name {
+        text-align: center;
+    }
+    .bio-title, .teachers-title, .teacher-name, .subtitle-cours {
+        color: #f59ca9;
+    }
+   .head-content {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+   }
+   .news {
+    color: #eb6da4;
+   }
+    .top-box {
+        margin-right: 100px;
+    }
+    .photo-prof1, .photo-prof2, .photo-prof3 {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;    
+    }
+    .top-box, .center-box, .bottom-box {
+        display: flex;
+        margin: 30px 400px;
+    }
+    .text-prof {
+        width: 500px;
+        text-align: justify;
+        padding: 10px;
+    }
+    .title-cours {
+        margin-top: 70px;
+      }
+      .title-cours, .subtitle-cours {
+          text-align: center;
+          margin-bottom: 40px;
+      
+      }
+      
+      table {
+          margin: auto;
+          margin-bottom: 80px;
+      }
+
+    table, th, td {
+        border: 1px solid black;
+    }
+    .tab-lessons {
+        height: 200px;
+        width: 350px;
+    }
+    .tab-prices {
+        height: 200px;
+        width: 350px;
+    }
+    td {
+        text-align: center;
+    }
+    .table-head {
+        height: 35px;
+        background-color: #F59CA9;
+        text-align: center;
+    }
+    .title-news, .news {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .actu-1, .actu-2, .actu-3, .actu-4 {
+        border: 2px solid black;
+        height: 450px;
+        width: 400px;
+    }
+    .row {
+        border: 1px black solid;
+        height: 400px;
+        width: 600px;
+    }
+    .grid > div {
+        
+        border: solid 1px #999;
+    }
+    .grid {
+        display: grid;
+        align-content: space-between;
+        justify-content: space-around;
+        grid-template-columns: 40% 40%;
+        grid-template-rows: 500px 500px;
+        grid-column-gap: 100px;
+        grid-row-gap: 80px;
+        margin-top: 70px;
+    }
+    .img-actu {
+        height: 100px;
+        margin-left: 40%;
+        margin-bottom: 50px;
+    }
+    ul {
+        list-style-type: none;
+        padding-left: 60px;
+    }
+    .contact-title, .title-contact, .subtitle-contact, .box-address {
+        text-align: center;
+        margin: 30px;
+    }
+    .address-title {
+        font-size: 20px;
+        font-weight: bold;
+        color: #F59CA9;
+     }
+    .contact-title, .subtitle-contact {
+        color: #f59ca9;
+    }
+    .bi-telephone-fill {
+        margin-right: 20px;
+    }
+    iframe {
+        height: 300px;
+        width: 300px;
+        margin-bottom: 70px;
+    }
+    .box-iframe {
+        text-align: center;
+        margin-top: 30px;
+    }
+    #field-message {
+        height: 300px;
+        width: 600px;
+    }
+    .up-contact {
+        height: 50%;
+    }
+    .bottom-contact {
+        height: 50%;
+       
+    }
+    form {
+        text-align: center;
+    
+    }
+    .form-name, .form-firstname, .form-message {
+        margin: 15px;
+    }
+    label {
+        display: block;
+        
+    }
+    button {
+        width: 200px;
+        height: 50px;
+        background-color: #F59CA9;
+       
+    }
+  
+    span {
+        color: white;
+        font-weight: bold;
+    }
+    .click-button {
+        margin-top: 15px;
+        border-radius: 5px;
+     }
+     .title-contact {
+        padding-top: 35px;
+        color: white;
+        text-decoration: none;
+     }
+     a.title-contact:hover, a.title-social:hover {
+        color: white;
+        font-size: 15px;
+        text-decoration: underline;
+     }
+     .title-social {
+        color: white;
+        text-decoration: none;
+        padding-bottom: 40px;
+     }
+     a:hover {
+        color: #e562b0;
+     }
+   
+}
