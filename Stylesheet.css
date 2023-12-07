@@ -393,6 +393,7 @@ color: #eb6da4;
     .click-button {
         margin-top: 15px;
         border-radius: 5px;
+        border: none;
      }
      .title-contact {
         padding-top: 95px;
