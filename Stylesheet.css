@@ -1,11 +1,11 @@
 body, html {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    
     
 }
 footer {
-    height: 150px;
+    height: 250px;
     background-color: #F59CA9;
     text-align: center;
     margin-top: 80px;
@@ -147,10 +147,15 @@ color: #eb6da4;
  .bottom-contact {
     text-align: center;
     margin-bottom: 50px;
+    
  }
  button {
     background-color: #F59CA9;
+    
 
+ }
+ .click-button {
+    border: none;
  }
  span {
     color: white;
@@ -163,7 +168,7 @@ color: #eb6da4;
     border-radius: 5px;
  }
  .title-contact {
-    padding-top: 35px;
+    padding-top: 95px;
     color: white;
     text-decoration: none;
  }
@@ -390,7 +395,7 @@ color: #eb6da4;
         border-radius: 5px;
      }
      .title-contact {
-        padding-top: 35px;
+        padding-top: 95px;
         color: white;
         text-decoration: none;
      }
